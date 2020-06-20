@@ -6,6 +6,8 @@
 
 * {
   box-sizing: border-box;
+  background-image: url(bg.jpeg);
+  background-size: cover;
 }
 
 body {
@@ -17,11 +19,13 @@ body {
   min-height: 100vh;
   margin: 0;
   font-family: 'Lato', sans-serif;
+  color: #fff;
 }
 
 .container {
   margin: 30px auto;
   width: 350px;
+  color: #fff;
 }
 
 h1 {
@@ -85,6 +89,8 @@ input[type='number'] {
   font-size: 16px;
   padding: 10px;
   width: 100%;
+  color: white;
+  background-color: #fff;
 }
 
 .btn {
@@ -114,7 +120,7 @@ input[type='number'] {
 .list li {
   background-color: #fff;
   box-shadow: var(--box-shadow);
-  color: #333;
+  color: #fff;
   display: flex;
   justify-content: space-between;
   position: relative;
